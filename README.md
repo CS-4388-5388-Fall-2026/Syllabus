@@ -8,24 +8,32 @@ Office hours: Monday and Wednesday, 1:00 - 2:00 PM, In person (Comal 307 E)
 
 
 TA: Mahfujur Rahman<br>
-Office Hours: Monday and Wednesday, 2:00 - 3:00 PM, In person (Comal 309 J) and on Zoom
+Office Hours: Monday and Wednesday, 4:00 - 5:00 PM, In person (Derrick Hall Mezannine Lobby) and on Zoom
+
+## A Note From Your Instructor
+
+Welcome to Computer Graphics! This is one of my favorite courses to teach, because it lives right at the intersection of mathematics, programming, and visual creativity, it is one of the few classes where you get to watch your code quite literally come to life on the screen. My goal for the semester is to take you from *using* graphics applications to *building* them: not just making something appear on screen, but understanding why the underlying math and algorithms work the way they do.
+
+Computer graphics has been central to my own research in virtual reality, augmented reality and interactive 3D systems, and I am genuinely excited to share both the fundamentals and a feel for how graphics programmers actually think and solve problems. Whether you are headed toward games, visualization, simulation, or graduate research, the skills you build here will carry over. Please come to office hours early and often, I would much rather help you get unstuck than have you struggle alone.
 
 ## Overview
 
-Computer graphics is an exciting field within computer science that has a far-reaching impact on our daily lives, through applications in movies, games, art, design, education, science, and medicine. In this course, you will learn the fundamental concepts and programming techniques used in game development and other interactive computer graphics applications.  The core topics covered in this class include: 2D/3D graphics math, physical simulation, scene graph representations, polygonal modeling, texture mapping, character animation, illumination models, shader programming, ray casting, and projection.  
+Computer graphics is one of the most visible and influential areas of computer science, shaping the visuals we experience in games, film, simulation, scientific visualization, design, education, and medicine. In this course, you will study the fundamental concepts and algorithms behind interactive computer graphics, including geometric transformations, scene representation, polygonal modeling, texture mapping, lighting and shading models, animation, ray casting, and projection, and you will put them into practice by building real, interactive graphics applications. Along the way we will pay close attention to the mathematical and computational techniques used to construct and manipulate 2D and 3D content, and to how these pieces fit together in the real-time rendering pipeline.
 
-Although this is a programming-heavy course, it is designed to be accessible even if you don't have access to a computer with a powerful graphics card.  Programming assignments will be implemented in TypeScript using a high-level graphics toolkit built on top of WebGL, which will run inside the web browser on a wide range of hardware devices and operating systems.
+Although this is a programming-heavy course, it is designed to be accessible even if you don't have access to a computer with a powerful graphics card. Programming assignments are implemented in TypeScript using a high-level graphics toolkit built on top of WebGL, which runs inside the web browser on a wide range of hardware devices and operating systems.
 
 ## Learning Objectives
 
-In this course, you will learn to:
-- Understand basic concepts and algorithms relevant to computer graphics programming.
-- Identify, define, and solve problems involving 2D and 3D computer graphics.
-- Implement real-time computer graphics using a high-level scene graph library.
-- Write shader programs that run on the graphics processing unit (GPU).
-- Implement user interfaces for interacting with 3D graphics applications.
+After completing this course, students should be able to:
+- Explain fundamental concepts and algorithms used in computer graphics.
+- Solve problems involving 2D and 3D computer graphics systems.
+- Implement real-time computer graphics using a scene graph library.
+- Develop shader programs for execution on graphics processing units (GPUs).
+- Design user interfaces for interactive 3D graphics applications.
 
 ## Prerequisites
+
+Formally, you need **CS 3358** and **[MATH 1317 or MATH 2321 or MATH 2417 or MATH 2471 or MATH 2472]**, each completed with a grade of **"C" or better**.
 
 This is a programming-heavy course that assumes knowledge of concepts, algorithms, and data structures taught in previous computer science classes. TypeScript is a strongly-typed, object-oriented language that uses a syntax similar to Java and C#, but does not require explicit memory management like C++.  Prior experience with at least one of these object-oriented programming languages is recommended, but not strictly required. Please contact me if you have any questions about whether the course is a good fit for your interests and background.
 
@@ -35,11 +43,17 @@ The course is divided into six **modules**, each of which lasts two weeks.  Gene
 
 During the second week of each module, we will often have a second lecture on more advanced concepts, followed by another live programming class.  However, the exact schedule may vary based on the content we need to cover, and sometimes it makes more sense to swap the order of the lecture and programming classes in a given week.
 
-I intend to hold all class sessions **in-person**.  The class will not be live streamed except if situational factors arise, such as personal illness, in which case the class may be held synchronously via Zoom.  On the rare occasion that I am traveling, a session may instead be delivered **asynchronously** using a posted recording (this term, the Scene Hierarchy lecture on October 14 will be asynchronous). I recognize that in-person attendance is not always possible or practical.  Therefore, all classes will be **recorded**, and the videos will be posted on Canvas. Note that **you do not need to contact me** if you have to miss a class; just make sure to watch the video as soon as you can, so you don't fall behind.
+I intend to hold all class sessions **in-person**.  The class will not be live streamed except if situational factors arise, such as personal illness, in which case the class may be held synchronously via Zoom.  On the rare occasion that I am traveling, a session may instead be delivered **asynchronously** using a posted recording. I recognize that in-person attendance is not always possible or practical,  so **I will make an effort to record lectures and post them on Canvas when I can, but recordings are not guaranteed for every class**, and you should plan to attend in person whenever possible. If you do have to miss a class, there is no need to contact me; check Canvas for any posted recording or materials and catch up promptly so you don't fall behind.
 
 ## Textbook
 
-There is no textbook for this course.  However, there will be online resources, articles, and tutorials posted on various computer graphics topics throughout the semester.  Students are expected to be familiar with this content in addition to the material covered in class.
+There is no *required* textbook for this course. Throughout the semester, online resources, articles, and tutorials on various computer graphics topics will be posted, and students are expected to be familiar with this content in addition to the material covered in class.
+
+For students who would like additional references, the following textbooks are **optional**:
+
+- *Fundamentals of Computer Graphics*, 4th Edition, by Steve Marschner and Peter Shirley,  a comprehensive reference for the graphics concepts covered in the course. This book is **freely available to Texas State students** through the University Libraries' online subscription (the O'Reilly for Higher Education platform), so there is no need to purchase it. You can access it by searching the [TXST University Libraries](https://www.library.txst.edu/) catalog or the library's O'Reilly collection and signing in with your NetID.
+- *[3D Math Primer for Graphics and Game Development](https://gamemath.com/)*, by Fletcher Dunn and Ian Parberry, a helpful reference for the vector, matrix, and transformation math we use throughout the course. The full text is **freely available online** at [gamemath.com](https://gamemath.com/).
+
 
 ## Assessments
 
@@ -47,7 +61,7 @@ There will be a total of six programming assignments in this class. Although the
 
 In addition to the programming assignments, your understanding will be assessed by short **quizzes**, a **midterm exam**, and a **final exam** (both exams are described under *Exams* below).
 
-Each assignment will be introduced at the beginning of a two-week module. At the end of the first week, you will complete the **Quiz**. This will review the key mathematical or algorithmic concepts in the assignment.  Quizzes will be administered **online** and are **open book**.  They will need to be completed before the deadline, and you have flexibility in choosing when to take it.  The quizzes are **low-stakes and graded on completion and good-faith effort** — their purpose is to get you engaging with the assignment's concepts early, not to test you under exam conditions. So it is generally a good idea to complete them before starting work on the program. The graded, individual assessment of course concepts happens on the midterm and final exams. You are still expected to do the quizzes yourself, but their weight reflects that they are a learning aid rather than a high-stakes measurement.
+Each assignment will be introduced at the beginning of a two-week module. At the end of the first week, you will complete the **Quiz**. This will review the key mathematical or algorithmic concepts in the assignment.  Quizzes will be administered **online** and are **open book**.  They will need to be completed before the deadline, and you have flexibility in choosing when to take it.  The quizzes are **low-stakes and graded on completion and good-faith effort**, their purpose is to get you engaging with the assignment's concepts early, not to test you under exam conditions. So it is generally a good idea to complete them before starting work on the program. The graded, individual assessment of course concepts happens on the midterm and final exams. You are still expected to do the quizzes yourself, but their weight reflects that they are a learning aid rather than a high-stakes measurement.
 
 At the end of the second week, you will submit the **Program**. If you struggled with the quiz, then seek help from the TA as needed, and make sure that you understand the key concepts first. At a minimum, your goal should be to have a full understanding of the concepts and how you will solve the programming portion by the end of the first week. This way, you will be sure to have at least one full week to implement and debug the program.
 
@@ -55,11 +69,11 @@ Students enrolled in CS 5388 (graduate section) will have additional work to com
 
 ### Exams
 
-There are two exams in this course: a **midterm** and a **final**. Both are held **in class** and are **individually proctored**. Unlike the quizzes — which are short, open-book, and meant to preview each assignment — the exams assess your broader understanding of the graphics concepts, mathematics, and algorithms covered in lecture and the programming assignments. The exams are **closed-book**, though you may bring a single one-page, handwritten note sheet.
+There are two exams in this course: a **midterm** and a **final**. Both are held **in class** and are **individually proctored**. Unlike the quizzes, which are short, open-book, and meant to preview each assignment, the exams assess your broader understanding of the graphics concepts, mathematics, and algorithms covered in lecture and the programming assignments. The exams are **closed-book**, though you may bring a single one-page, handwritten note sheet.
 
-The **midterm exam** is held on **Monday, October 12** during our regular class time and covers **Modules 0–3** (2D and 3D graphics, essential graphics math, physical simulation, meshes, textures, and morphing). The **final exam** is held during the university final exam period on **Monday, December 7, 11:00 AM–1:30 PM**, and focuses on **Modules 4–6** (scene hierarchy and animation, lighting and shading, cameras, rays, and projection), while assuming the foundational material from the first half of the course.
+The **midterm exam** is held on **Monday, October 12** during our regular class time and covers **Modules 0-3** (2D and 3D graphics, essential graphics math, physical simulation, meshes, textures, and morphing). The **final exam** is held during the university final exam period on **Monday, December 7, 11:00 AM-1:30 PM**, and focuses on **Modules 4-6** (scene hierarchy and animation, lighting and shading, cameras, rays, and projection), while assuming the foundational material from the first half of the course.
 
-If a documented emergency prevents you from taking an exam at the scheduled time, contact me **as soon as possible** — ideally before the exam — to arrange a make-up. A missed exam cannot be replaced by the bonus quiz.
+If a documented emergency prevents you from taking an exam at the scheduled time, contact me **as soon as possible**, ideally before the exam, to arrange a make-up. A missed exam cannot be replaced by the bonus quiz.
 
 ### Class Participation
 
@@ -82,37 +96,15 @@ The grading in this course is on an absolute scale. This means that the performa
 - D  ≥ 60.0% and < 70.0%
 - F   < 60.0%
 
-For S/N grading, a satisfactory grade (S) requires a grade of 70.0% or above.
-
 ## Flexible Late Policy
 
-This course has a flexible late policy. Each assignment will have a fixed due date, but each of you will be granted **7 late points** at the beginning of the semester.
+I want the deadlines in this course to be firm enough to keep you on pace, but flexible enough to absorb the ordinary disruptions of a busy semester, an illness, a family emergency, or a crunch in another class. To that end, every assignment has a fixed due date, but each of you also starts the semester with **7 late points** to spend however you see fit.
 
-Each late point is worth a 24-hour extension for any programming assignment. You are free to allocate them however you want throughout the course. For example, if you are sick, have a family emergency, or even just a big project due, you could apply all points to that assignment and hand it in a week late. Alternatively, you could decide to spread these days around and submit programming assignment a day or two late.
+Each late point is worth a 24-hour extension on any programming assignment. You are free to allocate them however you want throughout the course. For example, if you are sick, have a family emergency, or even just a big project due in another class, you could put all of your points toward one assignment and hand it in a week late. Alternatively, you could spread them out and submit several assignments a day or two late.
 
 If you have late points remaining, **you do not need to contact me** for an extension on programming assignments. These extensions are applied automatically with no questions asked. When you submit your code using GitHub, the time is logged by the system. If the submission is late, we will apply an extension in the grading system and deduct the corresponding number of late points.
 
 Your current late points will be visible in Canvas and will be updated when your assignments are graded. Note that you are responsible for keeping track of remaining points if you submitted an assignment late, but it has not been graded yet. If you run out of late points and anticipate further difficulties in completing work on time, then you should contact me to discuss your situation.
-
-#### Frequently Asked Questions
-
-*Do I have to tell you when I want to use my late points?*  
-No, we will apply credit automatically. I understand that things happen, and everyone probably needs a day or two here and there, so just take them automatically if you need them. It’s fine as long as you don’t take so many up front that you fall terribly behind.
-
-*Do these apply to the quizzes as well as the programming assignments?*  
-Late points only apply to the programs. The quizzes are much shorter and worth less than the programming assignments. They can be completed anytime within the first week of the module, so you would need a very convincing justification for an additional extension. If you miss a quiz, you will have the opportunity to replace it by completing the bonus quiz at the end of the semester.
-
-*What about the exams — do late points apply there?*  
-No. Late points apply only to the programming assignments. The midterm and final are held at fixed, proctored times. If a documented emergency prevents you from taking an exam, contact me as soon as possible (ideally beforehand) to arrange a make-up; a missed exam cannot be replaced by the bonus quiz.
-
-*What if I get really sick or something and need an extension beyond this?*  
-That is possible in rare circumstances, but you need to talk with me about this situation. You can expect that the first thing I will ask is: How have you used the late points that I have already given you? That’s quite a lot already; are more really justified in this case?
-
-*Is there a penalty if I run out of late points and submit an assignment after the deadline?*  
-If you use all your late points, we will grade the assignment with a late penalty of 5% for each day it is late.
-
-*If I don't use all my late points by the end of the semester, will I receive bonus points?*  
-No. The late points are meant to increase flexibility for students face challenges in this course. If they were redeemable for bonus points, then this would effectively penalize the students who need extensions for legitimate reasons beyond their control. 
 
 ## Standard Policies
 
@@ -169,4 +161,4 @@ If you have already been working with the Office of Disability Services and have
 
 ## Acknowledgments
 
-*Aspects of this syllabus (including this statement) were adopted from Evan Suma Rosenberg, Nathan Taylor, Daniel Keefe, Blair MacIntyre, Shana Watters, Lana Yarosh, and the American Association of University Professors Joint Statement on Rights and Freedoms of Students, because writing a good syllabus is hard.*
+*Aspects of this syllabus (including this statement) were adopted from Evan Suma Rosenberg, Nathan Taylor, Daniel Keefe, Blair MacIntyre, Shana Watters, Lana Yarosh, and the American Association of University Professors Joint Statement on Rights and Freedoms of Students. This course was adapted from Evan Suma Rosenberg's CSCI 4611 at the University of Minnesota*
