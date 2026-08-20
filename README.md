@@ -82,7 +82,8 @@ Certain classes, especially those involving live programming, will include a **p
 ## Grading
 
 Final course grades will be calculated based upon the following percentages.
-- Programs - 40%
+
+- Programing Assignments - 40%
 - Midterm Exam - 20%
 - Final Exam - 20%
 - Quizzes - 15%
